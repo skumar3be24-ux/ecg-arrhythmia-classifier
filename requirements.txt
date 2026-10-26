@@ -1,0 +1,7 @@
+# Host-side Python dependencies (tested with Python 3.10-3.12).
+numpy>=1.24          # everything
+wfdb>=4.1            # reading MIT-BIH records (mitbih.py, beat_dataset.py, evaluate.py, make_board_vectors.py)
+torch>=2.0           # training and quantisation only (train.py, quantize.py, ecgnet.py)
+matplotlib>=3.7      # paper_figures/make_figures.py
+scipy>=1.10          # optional: floating-point reference detector in qrs/pan_tompkins.py
+# On the PYNQ-Z2 only numpy and the board's own `pynq` package are needed.
