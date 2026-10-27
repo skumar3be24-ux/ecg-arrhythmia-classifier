@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "ECG Arrhythmia Classification on an FPGA: Pan-Tompkins QRS Detection and an INT8 1D-CNN on the PYNQ-Z2"
+authors:
+  - family-names: "Kumar"
+    given-names: "Sourabh"
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+keywords:
+  - ECG
+  - arrhythmia classification
+  - FPGA
+  - PYNQ-Z2
+  - Zynq
+  - 1D-CNN
+  - INT8 quantization
+  - Pan-Tompkins
+  - MIT-BIH
+repository-code: "https://github.com/skumar3be24-ux/ecg-arrhythmia-classifier"
