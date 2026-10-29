@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data (download with software/mitbih.py --download; regenerate with software/beat_dataset.py)
+data/mitdb/
+data/processed/
+data/beats/
+
+# Simulation and FPGA build outputs
+hardware/sim/build/
+*.vvp
+*.vcd
+fpga/vivado/build/
+.Xil/
+*.jou
+vivado*.log
+!results/implementation/vivado_build.log
+vivado*.str
+webtalk*
+
+# Generated packages and board results
+pynq/ecg_accel_pynq_package.zip
+pynq/results/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local-only backup of the old working folders (never upload)
+_local_backup_not_for_github/
